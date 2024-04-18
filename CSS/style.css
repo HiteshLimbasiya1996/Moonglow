@@ -1,0 +1,639 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.middle-header {
+    background-color: #dddcec !important;
+}
+
+.top-header {
+    font-size: 18px;
+    background: #ecf0f8 !important;
+}
+
+.search i {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.user i {
+    font-size: 22px;
+}
+
+.navbar-brand img {
+    height: 65px;
+}
+
+.navbar-toggler {
+    border: none !important;
+}
+
+/* section-1 start */
+.section-1 {
+    padding: 6rem 0rem;
+}
+
+.sec-1-left h2 {
+    font-size: 35px;
+}
+
+.sec-1-left p {
+    font-size: 18px !important;
+    font-weight: 400;
+    letter-spacing: 1.44px;
+    padding-right: 50px;
+}
+
+.sec-1-right i {
+    font-size: 18px;
+    color: #514689;
+}
+
+.sec-1-right button,
+.bundle-text button,
+.collection-text button,
+.cel-earth-text button,
+.calculator-text button {
+    background-color: #504786;
+    padding: 1rem 1.75rem;
+    color: #fff;
+    text-transform: uppercase;
+    transition: .3s ease opacity;
+    font-size: 18px;
+    letter-spacing: 1.8px;
+    border: none;
+}
+
+.bundle-text button:hover {
+    opacity: .75;
+}
+
+.bundle-text img,
+.collection-text img,
+.cel-earth-text img {
+    height: 25px;
+    width: auto;
+}
+
+/* section-1 end */
+
+/* section-2 forbes start */
+.section-2 {
+    background-color: #e8e4f5;
+    padding: 70px;
+}
+
+.sec-2 img,
+.sec-2-image img {
+    height: 31.23 !important;
+    width: 120px !important;
+}
+
+.sec-2 {
+    gap: 60px !important;
+}
+
+.sec-2 i {
+    color: #504786;
+    font-size: 23px;
+}
+
+
+
+.sec-2-text p {
+    padding-top: 30px;
+    font-size: 18px;
+    line-height: 1.4;
+    font-weight: 300;
+    letter-spacing: 1.44px;
+    margin-bottom: 0px;
+}
+
+/* section-2 forbes end */
+
+/* section-3 shop bundle start */
+.section-3,
+.section-5 {
+    padding: 6rem 3rem;
+}
+
+
+.bundle-image,
+.collection-image,
+.cel-earth-image {
+    max-width: 516px !important;
+
+}
+
+.bundle-text a h1,
+.collection-text a h1,
+.world-text a h1 {
+    font-size: 2rem;
+    padding-right: 120px !important;
+    line-height: 40px;
+    color: black;
+    letter-spacing: 2.08px;
+    font-weight: 600 !important;
+}
+
+.bundle-text a p,
+.collection-text a p,
+.cel-earth-text a p,
+.world-text a p {
+    font-size: 1rem !important;
+    letter-spacing: 1.5px !important;
+    color: black;
+    padding-top: 20px;
+}
+
+.calculator-text p {
+    font-size: 1.2rem !important;
+    letter-spacing: 1.5px !important;
+    color: black;
+    padding-top: 20px;
+}
+
+.bundle-text a,
+.collection-text a,
+.cel-earth-text a,
+.world-text a {
+    text-decoration: none;
+
+}
+
+/* section-3 shop bundle end */
+
+/* section-4 product start  */
+.section-4 {
+    padding: 3rem 6rem;
+    background-color: #f5f0ea;
+}
+
+.product-heading h2 {
+    font-size: 2rem;
+    color: #000;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.product-heading p {
+    font-size: 1.8rem;
+}
+
+.product h5 {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.product p {
+    font-size: 1.1rem;
+    font-weight: 450;
+    line-height: 1.4;
+    letter-spacing: 1.44px;
+}
+
+.sec-4-btm h6,
+.sec-4-btm p {
+    font-size: 17px;
+}
+
+/* section-4 product end */
+
+/* section-6 celebration earth day start */
+.section-6 {
+    overflow: hidden !important;
+    padding: 0rem 3rem 6rem;
+}
+
+.cel-earth-text a h1 {
+
+    font-size: 2rem;
+    line-height: 40px;
+    color: black;
+    letter-spacing: 2.08px;
+    font-weight: 600 !important;
+}
+
+/* section-6 celebration earth day end */
+
+/* section-7 free start */
+.section-7 {
+    padding: 3rem 3rem !important;
+}
+
+.free img {
+    width: 100%;
+    height: 380px;
+}
+
+.free a h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #000;
+}
+
+.free a {
+    text-decoration: none;
+}
+
+.free a p {
+    font-size: 1.1rem;
+    color: #000;
+    font-weight: 400;
+    line-height: 143.9%;
+    letter-spacing: 1.44px;
+}
+
+/* section-7 free end */
+
+/* section-8 video start */
+.section-8 {
+    padding: 1rem 3rem;
+}
+
+.video a img {
+    width: 100% !important;
+}
+
+.video{
+    position: relative !important;
+    cursor: pointer;
+}
+.video-image img{
+    position: absolute;
+    top: 45% !important;
+    left: 35%;
+    cursor: pointer;
+
+}
+/* section-8 video end */
+
+/* section-9 popolar start */
+.section-9 {
+    padding: 3rem;
+}
+
+/* section-9 popolar end */
+
+/* section-10 category start */
+.section-10 {
+    padding: 3rem 6rem;
+}
+
+.catagory h3 {
+    font-weight: 600;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #000;
+    margin-bottom: 2rem;
+}
+
+/* slider start */
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 330px;
+    object-fit: cover;
+}
+
+.swiper-slide h4 {
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #000;
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    letter-spacing: 1px;
+}
+
+.swiper-slide a {
+    text-decoration: none;
+}
+
+.swiper-slide a p,
+.review-text a p {
+    font-size: 1rem;
+    color: #504786;
+    text-transform: uppercase;
+    font-weight: 400;
+    display: inline-flex;
+    align-items: center;
+    gap: .5rem;
+    border-bottom: 1px solid #504786;
+    padding-bottom: .625rem;
+}
+
+/* sllider end */
+/* section-10 category end */
+
+/* section-11 world start */
+.section-11 {
+    padding: 3rem 3rem;
+}
+
+/* section-11 world end */
+
+/* section-12 calculator start */
+.section-12 {
+    padding: 1rem 3rem;
+}
+
+.calculator-image img {
+    padding-left: 60px;
+}
+
+/* section-12 calculator end */
+
+/* section-13 review start */
+.section-13 {
+    padding: 3rem 3rem;
+}
+
+.star i {
+    padding-right: 10px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.review-text h2 {
+    letter-spacing: 2.08px;
+    font-size: 2rem;
+}
+
+/* section-13 review end */
+
+/* section-14 faq start */
+.section-14 {
+    padding: 3rem 3rem;
+}
+
+.faq-left img {
+    max-width: 138px;
+    height: auto;
+}
+
+.faq-left h1 {
+    margin-top: 20px;
+    line-height: 1.25;
+    letter-spacing: 2.08px;
+    font-size: 2.2rem;
+    font-weight: 700;
+    text-align: left;
+    max-width: 263px;
+}
+
+/* faq */
+.accordion-item button{
+    color: #000;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.accordion-item button:focus{
+    color: #000;    
+}
+
+.accordion-item p{
+    color: #000;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.accordion-button:focus {
+    outline: none !important;
+    /* box-shadow: transparent !important; */
+    border: transparent !important;
+}
+.accordion-button:not(.collapsed) {
+    background-color:transparent !important;
+}
+/* section-14 faq end */
+
+/* section-15 social start */
+.section-15{
+    padding: 2rem 0rem;
+}
+.social-header h2{
+    font-weight: 500;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 2rem;
+    padding-bottom: 10px;
+}
+.galary img{
+    height: 287px ;
+    width: 287.75px;
+}
+/* section-15 social end */
+
+/* section-16 start */
+.section-16{
+    padding: 4rem 0rem;
+    background-color: #f5f0ea;
+}
+.sign-up h2{
+    letter-spacing: 1.5px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.sign-up p{
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    letter-spacing: 1.5px;
+    color: rgb(0, 0, 0);
+    max-width: 515px;
+    margin: 1.25rem auto 1.75rem;
+}
+.input-group{
+    max-width: 543px;
+    margin: auto;
+}
+.input-group input{
+    width: 100%;
+    font-size: 1.75rem;
+    padding: 0.5rem;
+    background-color: rgb(255, 255, 255);
+    border: none;
+}
+.input-group button{
+    background-color: rgb(80, 71, 134);
+    padding: 1rem 1.75rem;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    transition: opacity 0.3s ease 0s;
+    font-size: 1rem;
+    letter-spacing: 1.8px;
+}
+.section-16 h6{
+    margin: 1rem 0px 0px;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 143.9%;
+    letter-spacing: 1.08px;
+}
+/* section-16 end */
+
+/* footer start */
+.footer{
+    padding:3rem 0rem;
+    
+}
+.footer a{
+    color: rgb(0, 0, 0);  
+}
+.footer-logo img{
+    max-width: 138px;
+}
+.footer-logo a p{
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    line-height: 5px;
+    font-weight: 350;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+}
+.footer-logo a,.footer-menu ul li a{
+    text-decoration: none;
+}
+.footer-logo a p:hover,.footer-menu ul li a:hover{
+    color:#b7b9df !important;
+}
+.footer-menu h2,.footer-social h2{
+    color: rgb(81, 70, 137);
+    font-size: 20px;
+    font-weight: 500;
+}
+.footer-menu ul li{
+    list-style-type: none;
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: 350;
+}
+.footer-menu ul{
+    margin-left: -30px !important;
+}
+.footer-social p{
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 350;   
+    margin-top: 20px;
+}
+
+.social-media a i{
+    color: rgb(81, 70, 137) !important;
+    font-size: 25px;
+    padding-right: 20px;
+}
+/* footer end */
+
+.fixed-btn button{
+    border: none;
+    border-radius: 4px 4px 0px 0px;
+    background-color: rgb(81, 70, 138);
+    min-height: 50px;
+    height: 100%;
+    padding: 10px 40px;
+    text-align: center;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-style: normal;    
+}
+.fixed-btn{
+    z-index: 90000;
+    position: fixed;
+    filter: drop-shadow(rgb(0, 0, 0) 0px 0px 30px);
+    bottom: 0px;
+    left: 0px;
+    margin: 0px 20px;
+    width: 190px;
+}
+
+/* messaging */
+
+.messaging{
+    /* z-index: 90000; */
+    position: fixed;
+    right: 30px !important;
+    bottom: 30px;
+    background: rgb(235, 235, 235);
+    border: 0px;
+    border-radius: 100px;
+    box-shadow: rgba(22, 22, 22, 0.16) 0px 2px 4px;
+    transition: all 200ms ease 0s;
+    padding: 12px 15px;
+    height: auto;
+    max-width: auto;
+  
+}
+.messaging button i{
+    font-size: 35px; 
+}
+.messaging button{      
+   border: none !important;
+}
+/* scroll top top start */
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 100px;
+    right: 35px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    /* border-radius: 4px; */
+    box-shadow: 0 0 10px #0003;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
+/* scroll to top end */
+.navbar-light .navbar-toggler{
+    color:transparent !important;
+}
+.form-control:focus{
+    box-shadow: none !important;
+}
+.accordion-button:focus{
+    box-shadow:none !important
+}
